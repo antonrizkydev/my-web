@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY QUOTES TODAY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">MY QUOTES TODAY</div>
+            <ul class="nav-links">
+                <li><a href="#" class="active" data-section="home">Home</a></li>
+                <li><a href="#" data-section="about">About</a></li>
+                <li><a href="#" data-section="description">Description</a></li>
+                <li><a href="#" data-section="contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="hero">
+                    <h1 class="title">Inspirational Quotes <span>For Your Day</span></h1>
+                    <p class="subtitle">Daily motivation to keep you moving forward</p>
+                    
+                    <div class="quote-container">
+                        <div class="quote-display">
+                            <p id="current-quote">"The only way to do great work is to love what you do."</p>
+                            <p id="quote-author">- Steve Jobs</p>
+                        </div>
+                        <div class="quote-buttons">
+                            <button class="quote-btn active" data-quote="1">1</button>
+                            <button class="quote-btn" data-quote="2">2</button>
+                            <button class="quote-btn" data-quote="3">3</button>
+                        </div>
+                    </div>
+                    
+                    <button id="random-quote" class="cta-button">Get Random Quote</button>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="content-box">
+                    <h2>About MY QUOTES TODAY</h2>
+                    <p>This website is dedicated to providing you with daily inspirational quotes to motivate and uplift your spirit. Our collection includes wisdom from great thinkers, leaders, and innovators throughout history.</p>
+                    <p>Whether you need a boost to start your day, motivation to keep going, or inspiration to pursue your dreams, you'll find the perfect words here.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <h3>Inspiration</h3>
+                            <p>Thought-provoking quotes to spark creativity</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h3>Motivation</h3>
+                            <p>Encouraging words to keep you moving forward</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-sync-alt"></i>
+                            <h3>Daily Updates</h3>
+                            <p>Fresh quotes regularly added to our collection</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Description Section -->
+            <section id="description" class="section">
+                <div class="content-box">
+                    <h2>Why This Website Was Created</h2>
+                    <p>As the developer of this platform, I created MY QUOTES TODAY to share the power of words that have inspired me throughout my life. In a world that can sometimes feel overwhelming, the right words at the right time can make all the difference.</p>
+                    <p>This project combines my passion for web development with my belief in the transformative power of inspirational quotes. My goal is to create a space where people can find encouragement, perspective, and motivation.</p>
+                    <div class="developer-info">
+                        <h3>About the Developer</h3>
+                        <p>Hello, my name is Johanis Anton Hehanussa.
+It is a pleasure to have you visit my website, which I have developed to provide motivation and support for those of you who may be feeling frustrated and confused by your current life journey. Perhaps you feel as though there is no one who understands and can offer a glimmer of hope to help you continue the efforts you have been cultivating from the beginning. The process is not easy; it requires sacrifice and what must be sacrificed. However, your efforts will not betray the results. With praise to God and gratitude, we are pleased to offer you encouragement to motivate and support every endeavor you undertake. Thank you.
+</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="content-box">
+                    <h2>Developer Profile</h2>
+                    <p>Have questions, suggestions, or just want to share how a quote impacted and benefited you? Let me know through any of these channels:</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fab fa-whatsapp"></i>
+                            <h3>WhatsApp</h3>
+                            <p>082238762561</p>
+                            <a href="https://wa.me/6282238762561" class="contact-link" target="_blank">Send Message</a>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-facebook"></i>
+                           <h3>Facebook</h3>
+                            <p>Nyong</p>
+                            <a href="https://www.facebook.com/Zyrexx01" class="contact-link" target="_blank">Visit Profile</a>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>johanisantonhehanussa@gmail.com</p>
+                            <a href="mailto:johanisantonhehanussa@gmail.com" class="contact-link">Send Email</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 MY QUOTES TODAY. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
